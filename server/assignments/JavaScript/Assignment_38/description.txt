@@ -1,0 +1,1 @@
+Assignment 38 _ Write a JavaScript program to find area and perimeter of rectangle

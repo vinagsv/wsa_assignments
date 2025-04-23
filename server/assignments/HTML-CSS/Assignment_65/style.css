@@ -1,0 +1,168 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-container {
+  width: 100%;
+  max-width: 660px;
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(4, 200px);
+  grid-gap: 10px;
+}
+
+.A {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.B {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.C {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.D {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.E {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.F {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.G {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.H {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+/* A Hover */
+.A:hover {
+  grid-area: 1 / 1 / 2 / 4;
+  background-color: orange;
+  color: red;
+  font-size: xx-large;
+}
+
+.A:hover ~ .B {
+  grid-area: 2 / 1 / 3 / 2;
+}
+
+.A:hover ~ .C {
+  grid-area: 2 / 2 / 3 / 3;
+}
+
+.A:hover ~ .D {
+  grid-area: 2 / 3 / 2 / 4;
+}
+
+.A:hover ~ .E {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.A:hover ~ .F {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.A:hover ~ .G {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.A:hover ~ .H {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+/* B Hover */
+.B:hover {
+  grid-area: 1 / 1 / 4 / 3;
+  background-color: lightskyblue;
+  color: white;
+  font-size: xx-large;
+}
+
+.B:hover ~ .C {
+  grid-area: 1 / 3 / 2 / 4;
+}
+
+.B:hover ~ .D {
+  grid-area: 2 / 3 / 3 / 4;
+}
+
+.B:hover ~ .E {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.B:hover ~ .F {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.B:hover ~ .G {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.B:hover ~ .H {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+/* C Hover */
+.C:hover ~ .D,
+.C:hover ~ .E,
+.C:hover ~ .F,
+.C:hover ~ .G,
+.C:hover ~ .H {
+  background-color: purple;
+  color: blue;
+  font-size: xx-large;
+}
+
+.C:hover ~ .D {
+  grid-area: 2 / 1 / 3 / 4;
+}
+
+.C:hover ~ .E {
+  grid-area: 3 / 1 / 4 / 4;
+}
+
+.C:hover ~ .F {
+  grid-area: 4 / 1 / 5 / 4;
+}
+
+.C:hover ~ .G {
+  grid-area: 5 / 1 / 6 / 4;
+}
+
+.C:hover ~ .H {
+  grid-area: 6 / 1 / 7 / 4;
+}
+
+/* H Hover */
+.H:hover {
+  font-size: xx-large;
+  grid-area: 3 / 2 / 4 / 4;
+  background-color: green;
+}
+
+.grid-item {
+  background-color: greenyellow;
+  color: black;
+  border: 1px solid #ccc;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  transition: background-color 0.5s ease, color 2s ease, font-size 2s ease;
+}

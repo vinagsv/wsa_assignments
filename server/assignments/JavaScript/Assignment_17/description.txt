@@ -1,0 +1,1 @@
+Assignment 17 _ Write a javascript program to swap the word from lowercase to uppercase and vice versa.

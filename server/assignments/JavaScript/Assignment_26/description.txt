@@ -1,0 +1,1 @@
+Assignment 26 _ Write a Javascript program to determine the perimeter of the island.

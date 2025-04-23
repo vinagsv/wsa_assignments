@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Displaying Code with HTML</title>
+    
+    <!--styles-->
+    <style>
+      h1 {
+        font-weight: bold;
+      }
+
+      .example, pre {
+        border: 1px solid black;
+        padding: 10px;
+      }
+    </style>
+    
+  </head>
+  
+  <body>
+    <h1>Using &lt;pre&gt; and &lt;code&gt; Tags for Code Blocks</h1>
+    <p>
+      The <code>&lt;pre&gt;</code> and <code>&lt;code&gt;</code> tags are
+      used to display code snippets in web pages.
+    </p>
+    
+<!--example code-->
+    <h4>Example code</h4>
+    <pre class="example">
+      <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;pre&gt;
+      &lt;code&gt;
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+    }
+}
+      &lt;/code&gt;
+    &lt;/pre&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+      </code>
+    </pre>
+
+<!--exaample code output-->
+    <h4>Output</h4>
+    <pre>
+      <code>
+public class App {
+    public static void main(String[] args) {
+        System.out.println("Hello world");
+    }
+}
+      </code>
+    </pre>
+  </body>
+</html>
+

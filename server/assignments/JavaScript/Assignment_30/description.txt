@@ -1,0 +1,1 @@
+Assignment 30 _ Write a Javascript program to Write a JavaScript function to check whether it is palindrome or not.

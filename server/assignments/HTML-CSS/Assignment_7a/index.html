@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Gross salary Calculator</title>
+  </head>
+  <body>
+    <h2>Gross salary Calculator</h2>
+
+    <label for="employeeName">Employee Name:</label>
+    <input
+      type="text"
+      id="employeeName"
+      placeholder="Enter Employee Name"
+    /><br /><br />
+
+    <label for="employeeId">Employee Id:</label>
+    <input
+      type="text"
+      id="employeeId"
+      placeholder="Enter Employee ID"
+    /><br /><br />
+
+    <label for="salary">Salary:</label>
+    <input type="number" id="salary" placeholder="Enter Salary" /><br /><br />
+
+    <button onclick="calculateGrossSalary()">Calculate Gross Salary</button>
+
+    <p id="result"></p>
+
+    <script>
+      function calculateGrossSalary() {
+        let employeeName = document.getElementById("employeeName").value;
+        let employeeId = document.getElementById("employeeId").value;
+        let salary = parseFloat(document.getElementById("salary").value);
+
+        let ta = 0.15 * salary;
+        let da = 0.35 * salary;
+
+        let grossSalary = salary + ta + da;
+
+        document.getElementById("result").innerHTML = `
+                    Employee Name:${employeeName} <br>
+                    Employee ID: ${employeeId} <br>
+                    Basic Salary:$${salary.toFixed(2)} <br>
+                    TA (15%): $${ta.toFixed(2)} <br>
+                    DA (15%): $${da.toFixed(2)} <br>
+                    Gross Salary:$${grossSalary.toFixed(2)}`;
+      }
+    </script>
+  </body>
+</html>

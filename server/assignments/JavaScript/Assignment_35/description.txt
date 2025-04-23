@@ -1,0 +1,1 @@
+Assignment 35 _ Write a JavaScript program that works as a trim() function using regular expression

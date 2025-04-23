@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>greetings</title>
+  </head>
+  <body>
+    <h1>Time Greetings</h1>
+    <input type="number" id="timeInput" placeholder="time?" min="1" max="24" />
+    <button onclick="displayGreeting()">Greet Me!</button>
+    <p id="greetingMessage"></p>
+
+    <script>
+      function greetBasedOnTime(time) {
+        if (time >= 1 && time < 12) {
+          return "Good Morning!";
+        } else if (time >= 12 && time < 16) {
+          return "Good Noon!";
+        } else if (time >= 16 && time < 19) {
+          return "Good evening!";
+        } else if (time >= 19 && time <= 24) {
+          return "Good Night!";
+        } else {
+          return "invalid time!";
+        }
+      }
+
+      function displayGreeting() {
+        const time = parseInt(document.getElementById("timeInput").value);
+        const message = greetBasedOnTime(time);
+        document.getElementById("greetingMessage").textContent = message;
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+Assignment 46 _ Write a JavaScript program to count , display and remove items from a dropdown list

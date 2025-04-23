@@ -1,0 +1,118 @@
+.wrapper {
+  width: 567px;
+  height: 1134px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+  margin: 0 auto;
+}
+
+.grid-container {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-container > .grid-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.photoshop {
+  grid-area: 1 / 1 / 2 / 2;
+  background-color: #00d4d4;
+}
+
+.invision {
+  grid-area: 1 / 2 / 2 / 3;
+  background-color: #00d4d4;
+}
+
+.ux {
+  grid-area: 1 / 3 / 2 / 4;
+  background-color: #00d4d4;
+}
+
+.design {
+  grid-area: 2 / 2 / 4 / 4;
+  background-color: #00d4d4;
+}
+
+.php {
+  grid-area: 3 / 4 / 4 / 5;
+  background-color: #45b0a3;
+}
+
+.html {
+  grid-area: 3 / 5 / 4 / 6;
+  background-color: #45b0a3;
+}
+
+.rust {
+  grid-area: 2 / 5 / 3 / 6;
+  background-color: #45b0a3;
+}
+
+.javascript {
+  grid-area: 4 / 2 / 5 / 3;
+  background-color: #45b0a3;
+}
+
+.layout {
+  grid-area: 4 / 3 / 5 / 4;
+  background-color: #00d4d4;
+}
+
+.webdev {
+  grid-area: 4 / 4 / 6 / 6;
+  background-color: #45b0a3;
+}
+
+.ruby {
+  grid-area: 5 / 2 / 6 / 3;
+  background-color: #45b0a3;
+}
+
+.css {
+  grid-area: 5 / 3 / 6 / 4;
+  background-color: #45b0a3;
+}
+
+.go {
+  grid-area: 6 / 2 / 7 / 3;
+  background-color: #45b0a3;
+}
+
+.motion {
+  grid-area: 6 / 3 / 8 / 5;
+  background-color: #a83d3d;
+}
+
+.maya {
+  grid-area: 6 / 5 / 7 / 6;
+  background-color: #a83d3d;
+}
+
+.nuke {
+  grid-area: 6 / 6 / 7 / 7;
+  background-color: #a83d3d;
+}
+
+.cinema4d {
+  grid-area: 7 / 5 / 8 / 6;
+  background-color: #a83d3d;
+}
+
+.after-effects {
+  grid-area: 8 / 4 / 9 / 5;
+  background-color: #a83d3d;
+}

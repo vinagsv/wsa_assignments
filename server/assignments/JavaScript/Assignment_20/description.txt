@@ -1,0 +1,1 @@
+Assignment 20 _ Write a Javascript Function to generate the unique PIN number of given length n.

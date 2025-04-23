@@ -1,0 +1,1 @@
+Assignment 24 _ Write a program to arrange the element of an array in ascending and descending order.

@@ -1,0 +1,9 @@
+#myParagraph {
+  padding: 20px;
+  text-align: center;
+}
+
+.bordered {
+  border: 1px dotted;
+  border-color: blue;
+}

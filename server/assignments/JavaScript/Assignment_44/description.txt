@@ -1,0 +1,1 @@
+Assignment 44 _ Write a JavaScript to modify the style of paragraph , while clicking the button font , font size and color of the pargaraph will be changed

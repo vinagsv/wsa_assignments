@@ -1,0 +1,1 @@
+Assignment 43 _ Write a JavaScript to display a image

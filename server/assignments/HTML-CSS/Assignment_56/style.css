@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f3e3c3;
+}
+
+.navbar {
+  background-color: #f1d4a2;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+  color: white;
+  padding: 5px 10px;
+  transition: all 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: rgba(255, 0, 0, 0.409);
+  color: white;
+}

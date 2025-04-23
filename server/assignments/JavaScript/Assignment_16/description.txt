@@ -1,0 +1,1 @@
+Assignment 16 _ Write a program to generate Armstrong number of three digits

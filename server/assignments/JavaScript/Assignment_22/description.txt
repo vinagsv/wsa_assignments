@@ -1,0 +1,1 @@
+Assignment 22 _ Write a program to join all the element of an array into string.

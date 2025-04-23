@@ -1,0 +1,1 @@
+Assignment 47 _ Write a JavaScript program to create paragarph and buttons and change allignment dynamically by using getElementByTagName().

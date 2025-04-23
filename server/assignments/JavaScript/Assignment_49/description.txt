@@ -1,0 +1,1 @@
+Assignment 49 _ Write a JavaScript program to make a paragraph using createElement method , create a new node with nave element , create text node with strong element and add two node int parent node .

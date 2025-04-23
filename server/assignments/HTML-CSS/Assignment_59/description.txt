@@ -1,0 +1,1 @@
+Assignment 59 _ Create the webpage shown in the below image using proper margin, padding and box-sizing if required. Make use of float and clear property.

@@ -1,0 +1,1 @@
+Assignment 37 _ Write a JavaScript program to create , delete employee object and find the length of employee object.

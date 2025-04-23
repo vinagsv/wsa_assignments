@@ -1,0 +1,1 @@
+Assignment 39 _ Create a object and add a property by using prototype.

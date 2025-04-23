@@ -1,0 +1,1 @@
+Assignment 21 _ Write a program to input 10 numbers in an array and count total positive and negative number

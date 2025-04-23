@@ -1,0 +1,1 @@
+Assignment 48 _ Write a JavaScript program to create three paragraphs with different class name and manipulate style rules using CSS class selectors

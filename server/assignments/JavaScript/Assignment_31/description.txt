@@ -1,0 +1,1 @@
+Assignment 31 _ Write a JavaScript function to count the number of vowels in a string.

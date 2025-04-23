@@ -1,0 +1,1 @@
+Assignment 28(b) _ Write a JavaScript program to split a string and convert it into array of words.

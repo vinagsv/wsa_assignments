@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* logo */
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.logo .small-dot {
+  color: orange;
+}
+
+/* nav */
+.nav-bar {
+  padding: 25px 60px;
+  background-color: white;
+  width: 100%;
+  z-index: 10;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: orange;
+}
+
+/* hero */
+
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  justify-content: left;
+  background-image: url("https://picsum.photos/1800/800");
+  color: white;
+}
+
+.hero-content {
+  text-align: left;
+  max-width: 750px;
+  padding-left: 100px;
+}
+
+.hero h1 {
+  font-size: 64px;
+  margin-bottom: 25px;
+}
+
+.hero p {
+  font-size: 22px;
+  margin-bottom: 35px;
+  line-height: 1.8;
+  width: 150%;
+  text-align: justify;
+}
+
+/* buttons */
+
+.buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 19px 36px;
+  border: 2px solid white;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.btn.secondary {
+  background-color: white;
+  color: black;
+}
+
+.btn.secondary:hover {
+  background-color: transparent;
+  color: white;
+}

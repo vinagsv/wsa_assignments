@@ -1,0 +1,1 @@
+Assignment 58 _ Create the navbar as depicted in the below image using pseudo elements. Create the line separator using pseudo elements. Required image is provided in the google drive link.

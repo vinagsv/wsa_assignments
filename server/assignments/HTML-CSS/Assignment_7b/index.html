@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Fahrenheit to Celsius</title>
+  </head>
+  <body>
+    <h1>Fahrenheit to Celsius conerter</h1>
+    <label for="fahrenheit">Enter temperature in fahrenheit:</label>
+    <input type="number" id="fahrenheit" placeholder="e.g. 100" />
+    <button onclick="convertTemp()">Convert</button>
+    <p id="result"></p>
+
+    <script>
+      function convertTemp() {
+        let fahrenheit = document.getElementById("fahrenheit").value;
+
+        if (fahrenheit !== "") {
+          let celcius = (fahrenheit - 32) / 1.8;
+          document.getElementById(
+            "result"
+          ).innerText = `${fahrenheit} degree F is equal to ${celcius.toFixed(
+            2
+          )} degree C`;
+        } else {
+          document.getElementById("result").innerText =
+            "please enter a valid Fahrenheit temperature.";
+        }
+      }
+    </script>
+  </body>
+</html>

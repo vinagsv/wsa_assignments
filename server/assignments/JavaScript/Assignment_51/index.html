@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Email Registration Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Email Registration Form</h1>
+      <form id="registrationForm">
+        <label>First Name:</label>
+        <input
+          type="text"
+          id="firstName"
+          placeholder="First Name"
+          maxlength="10"
+        /><br />
+
+        <label>Last Name:</label>
+        <input
+          type="text"
+          id="lastName"
+          placeholder="Last Name"
+          maxlength="10"
+        /><br />
+
+        <label>User Name:</label>
+        <input type="text" id="userName" placeholder="User Name" /><br />
+
+        <label>Password:</label>
+        <input type="password" id="password" placeholder="Password" /><br />
+
+        <label>Confirm Password:</label>
+        <input
+          type="password"
+          id="confirmPassword"
+          placeholder="Confirm Password"
+        /><br />
+
+        <label>Birthday:</label>
+        <select id="month">
+          <option value="">Month</option>
+          <option value="January">January</option>
+          <option value="February">February</option>
+          <option value="March">March</option>
+          <option value="April">April</option>
+          <option value="May">May</option>
+          <option value="June">June</option>
+          <option value="July">july</option>
+          <option value="August">Augst</option>
+          <option value="September">September</option>
+          <option value="October">October</option>
+          <option value="November">November</option>
+          <option value="December">December</option></select
+        ><br />
+        <input type="number" id="day" placeholder="Day" min="1" max="31" />
+        <input
+          type="number"
+          id="year"
+          placeholder="Year"
+          min="1900"
+          max="2024"
+        /><br />
+
+        <label>Country:</label>
+        <select id="country">
+          <option value="">Select Country</option>
+          <option value="USA">USA</option>
+          <option value="Canada">Canada</option>
+          <option value="India">India</option></select
+        ><br />
+
+        <label>Gender:</label>
+        <div class="gender-options">
+          <input type="checkbox" id="male" /> <label for="male">Male</label>
+          <input type="checkbox" id="female" />
+          <label for="female">Female</label>
+        </div>
+        <br />
+
+        <label>Phone Number:</label>
+        <input type="text" id="phone" placeholder="Phone Number" /><br />
+
+        <label>Alternative Email:</label>
+        <input
+          type="email"
+          id="altEmail"
+          placeholder="Alternative Email"
+        /><br />
+
+        <div class="terms">
+          <input type="checkbox" id="terms" />
+          <label for="terms"
+            >I agree to the Google Terms of Service and Privacy Policy</label
+          >
+        </div>
+        <br />
+
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+      <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

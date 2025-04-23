@@ -1,0 +1,1 @@
+Assignment 18 _ Write a program to input a number and check whether it is odd or even

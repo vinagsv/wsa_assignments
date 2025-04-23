@@ -1,0 +1,1 @@
+Assignment 25 _ Given an array of 2n integers, write a JavaScript program to find sum of  min(ai, bi).

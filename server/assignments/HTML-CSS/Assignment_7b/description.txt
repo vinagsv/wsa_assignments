@@ -1,0 +1,1 @@
+Assignment 7(b) - Write a JavaScript program to convert the given temperature in Fahrenheit to Celsius using the following conversion formula_ C = F-32 _ 1.8

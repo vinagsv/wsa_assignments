@@ -1,0 +1,1 @@
+Assignment 51 _ Write a JavaScript program to create email registration form and validate the following data , all the fields must have entered data.

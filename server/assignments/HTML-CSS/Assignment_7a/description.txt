@@ -1,0 +1,1 @@
+Assignment 7(a) - Write a JavaScript Program to find the gross salary of a employee.

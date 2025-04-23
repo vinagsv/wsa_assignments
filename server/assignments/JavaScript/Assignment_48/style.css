@@ -1,0 +1,31 @@
+p {
+  font-size: 16px;
+  margin: 10px 0;
+  color: black;
+  background-color: transparent;
+}
+
+.blue-style {
+  color: blue;
+  background-color: lightblue;
+  padding: 10px;
+}
+
+.green-style {
+  color: green;
+  background-color: lightgreen;
+  padding: 10px;
+}
+
+.red-style {
+  color: red;
+  background-color: lightcoral;
+  padding: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}

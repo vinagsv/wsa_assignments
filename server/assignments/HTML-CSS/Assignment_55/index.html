@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Buy Tickets</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Buy Tickets to the Web Developers Gala</h1>
+      <h4>
+        Tickets are $10 each. Dinner packages are an extra $5. All fields are
+        required.
+      </h4>
+
+      <form>
+        <fieldset class="section">
+          <legend>Tickets and Add-ons</legend>
+          <div class="row">
+            <label for="tickets" class="green-text">
+              Numbers of Tickets <span>Limit 8</span>
+            </label>
+            <input
+              type="text"
+              id="tickets"
+              name="tickets"
+              placeholder="Enter number of tickets"
+              required
+            />
+          </div>
+
+          <div class="row">
+            <label for="dinner" class="green-text">
+              Dinner Packages <span>Serve 2</span>
+            </label>
+            <input
+              type="number"
+              id="dinner"
+              name="dinner"
+              placeholder="Enter number of packages"
+              min="0"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <fieldset class="section">
+          <legend>Payment</legend>
+          <div class="row">
+            <label for="card">
+              Credit Card Number <span>No spaces or dashes, please</span>
+            </label>
+            <input
+              type="text"
+              id="card"
+              name="card"
+              placeholder="Enter credit card number"
+              pattern="\d{13,16}"
+              required
+            />
+          </div>
+
+          <div class="row">
+            <label for="expiry"> Expiration Date <span>MM/YYYY</span> </label>
+            <input
+              type="text"
+              id="expiry"
+              name="expiry"
+              placeholder="MM/YYYY"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <fieldset class="section">
+          <legend>Billing Address</legend>
+          <div class="address-row">
+            <label for="name" class="green-text">Name</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="e.g., John Q. Public"
+              required
+            />
+          </div>
+
+          <div class="address-row">
+            <label for="address" class="green-text">Street Address</label>
+            <input
+              type="text"
+              id="address"
+              name="address"
+              placeholder="e.g., 12345 Main Street, Apt 23"
+              required
+            />
+          </div>
+
+          <div class="address-row">
+            <label for="city" class="green-text">City</label>
+            <input
+              type="text"
+              id="city"
+              name="city"
+              placeholder="e.g., Anytown"
+              required
+            />
+          </div>
+
+          <div class="address-row">
+            <label for="state" class="green-text">State</label>
+            <input
+              type="text"
+              id="state"
+              name="state"
+              placeholder="e.g., NY"
+              maxlength="2"
+              required
+            />
+          </div>
+
+          <div class="address-row">
+            <label for="pincode" class="green-text">Pincode</label>
+            <input
+              type="text"
+              id="pincode"
+              name="pincode"
+              placeholder="e.g., 12345"
+              pattern="\d{5}"
+              required
+            />
+          </div>
+        </fieldset>
+
+        <button type="submit">Buy Tickets!</button>
+      </form>
+    </div>
+  </body>
+</html>

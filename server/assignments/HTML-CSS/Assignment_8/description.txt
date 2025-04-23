@@ -1,0 +1,1 @@
+Assignment 8 - Write a program to input time in hours(1hrs to 24hrs) and input am or pm as string, Display welcome message for the user.

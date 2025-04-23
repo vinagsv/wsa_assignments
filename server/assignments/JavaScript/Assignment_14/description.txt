@@ -1,0 +1,1 @@
+Assignment 14 _ Write a program to generate following sum of series

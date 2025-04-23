@@ -1,0 +1,1 @@
+Assignment 57 _ Create the paragraph as depicted below and apply the css using pseudo classes.

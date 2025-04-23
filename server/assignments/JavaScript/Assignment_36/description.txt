@@ -1,0 +1,1 @@
+Assignment 36 _ Write a JavScript function to find factors of a positive integer.

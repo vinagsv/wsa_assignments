@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(162, 139, 139);
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 20px;
+  margin: 20px;
+  background-color: white;
+  border: 2px solid;
+}
+
+.in-box {
+  background-color: yellow;
+  color: red;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 300px;
+}
+
+.left-side {
+  float: left;
+  width: 25%;
+}
+
+.center-side {
+  width: 45%;
+  float: left;
+}
+
+.right-side {
+  width: 25%;
+  float: left;
+}

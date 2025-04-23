@@ -1,0 +1,1 @@
+Assignment 32 _ Write a JavaScript function to accept a parameter as a string and converts the first letter of each word in uppercase letter.

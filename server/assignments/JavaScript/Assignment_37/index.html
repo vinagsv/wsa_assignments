@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee Object</title>
+  </head>
+  <body>
+    <h2>Employee Details</h2>
+    <label for="name">Employee Name:</label>
+    <input type="text" id="name" placeholder="Enter name" /><br /><br />
+
+    <label for="empId">Employee ID:</label>
+    <input type="text" id="empId" placeholder="Enter Employee ID" /><br /><br />
+
+    <label for="empSalary">Employee Salary:</label>
+    <input
+      type="number"
+      id="empSalary"
+      placeholder="Enter salary"
+    /><br /><br />
+
+    <label for="deptName">Department Name:</label>
+    <input
+      type="text"
+      id="deptName"
+      placeholder="Enter department"
+    /><br /><br />
+
+    <button onclick="createEmployee()">Submit</button>
+
+    <h3>Employee Information</h3>
+    <p id="output"></p>
+    <p id="lengthOutput"></p>
+
+    <script src="script.js"></script>
+  </body>
+</html>

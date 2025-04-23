@@ -1,0 +1,1 @@
+Assignment 23 _ Write a program to compute sum and product of array of integer.
